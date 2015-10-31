@@ -1,0 +1,9 @@
+how to create a new category
+
+type rails console in the command prompt
+type in: Category.create(name: "name of the gategory here") and press enter
+repeat this for other category by pressing the up arrow to go back to the create method and change the name of the category.
+
+how to associate a book to a user from rails console
+type @book.user_id = 1
+@book.save
