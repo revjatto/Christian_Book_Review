@@ -1,4 +1,21 @@
+
 == README
+rails s -b $IP -p $PORT
+
+echo # christian-book-review >> README.md
+git init
+git add README.md
+git commit -m "my first commit"
+
+git remote add origin https://github.com/revjatto/Christian_Book_Review.git
+git push -u origin master
+
+
+git status
+git add -A
+git commit -m "my first commit"
+git push origin master
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

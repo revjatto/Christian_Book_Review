@@ -19892,3 +19892,112 @@ Started GET "/assets/application.self-b488320325de5103a266e377e09b4a50f048b4cf7b
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 
+
+
+Started GET "/" for 94.13.19.217 at 2015-10-31 21:32:42 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books"  ORDER BY created_at DESC[0m
+  Rendered books/index.html.erb within layouts/application (40.2ms)
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+Completed 200 OK in 4316ms (Views: 4288.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-5b93ae1fac58be6be002f9cfdc364f4141f31ce4bdc95dcdbc949a03533753d6.css?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:47 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 94.13.19.217 at 2015-10-31 21:32:48 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 94.13.19.217 at 2015-10-31 21:32:52 +0000
+Cannot render console from 94.13.19.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"  ORDER BY created_at DESC
+  Rendered books/index.html.erb within layouts/application (16.6ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 190ms (Views: 187.7ms | ActiveRecord: 0.7ms)
