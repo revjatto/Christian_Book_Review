@@ -8,6 +8,16 @@ Root User: adminyhjvbQa
 You can manage your new MySQL database by also embedding phpmyadmin.
 The phpmyadmin username and password will be the same as the MySQL credentials above.
    
+   
+   PostgreSQL 9.2 database added.  Please make note of these credentials:
+
+   Root User: adminuiaxeuj
+   Root Password: x2wraBYC9qn8
+   Database Name: christianbook
+
+Connection URL: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT
+
+
 type rails console in the command prompt
 type in: Category.create(name: "name of the gategory here") and press enter
 repeat this for other category by pressing the up arrow to go back to the create method and change the name of the category.
