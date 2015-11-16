@@ -3,6 +3,10 @@ Root User: adminyhjvbQa
    Root Password: J3SeDMdXME11
    Database Name: christianbook
    
+   Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+You can manage your new MySQL database by also embedding phpmyadmin.
+The phpmyadmin username and password will be the same as the MySQL credentials above.
    
 type rails console in the command prompt
 type in: Category.create(name: "name of the gategory here") and press enter
